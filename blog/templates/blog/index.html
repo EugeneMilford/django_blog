@@ -6,20 +6,15 @@ My Blog
 {% endblock %}
 
 {% block css_files %}
+<link rel="stylesheet" href="{% static "blog/post.css" %}" />
 <link rel="stylesheet" href="{% static "blog/index.css" %}"/>
 {% endblock %}
 
 {% block content %}
-<header id="main-navigation">
-    <h1><a href="">Blog Site</a></h1>
-    <nav>
-        <a href="">All Posts</a>
-    </nav>
-</header>
 
 <section id="welcome">
     <header>
-        <img src="" alt="Eugene - Author Of This Blog"/>
+        <img src="{% static "blog/images/programmer.jpg" %}" alt="Eugene - Author Of This Blog"/>
         <h2>Eugene's Blog</h2>
     </header>
     <p>Hello!!My name is Eugene and I love coding!</p>
@@ -29,17 +24,7 @@ My Blog
     <h2>Latest Posts</h2>
 
     <ul>
-        <li>
-            <article class="post">
-                <a href="">
-                    <img src="" alt="Food Tasting"/>
-                    <div id="post__content">
-                        <h3>Food Tasting</h3>
-                        <p>There's nothing quite like fine dining!!</p>
-                    </div>
-                </a>
-            </article>
-        </li>
+        {% include "blog/includes/post.html" %}
     </ul>
 </section>
 

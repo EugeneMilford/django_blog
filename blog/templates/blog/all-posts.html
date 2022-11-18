@@ -16,7 +16,9 @@ All Posts
 
     <ul>
         <li>
+            {% for post in all_posts %}
             {% include "blog/includes/post.html" %}
+            {% endfor %}
         </li>
     </ul>
 </section>

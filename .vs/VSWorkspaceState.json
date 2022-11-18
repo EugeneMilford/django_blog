@@ -4,12 +4,13 @@
     "\\blog",
     "\\blog\\static",
     "\\blog\\static\\blog",
+    "\\blog\\static\\blog\\images",
     "\\blog\\templates",
     "\\blog\\templates\\blog",
     "\\my_site",
     "\\static",
     "\\templates"
   ],
-  "SelectedNode": "\\blog\\templates\\blog\\all-posts.html",
+  "SelectedNode": "\\blog\\views.py",
   "PreviewInSolutionExplorer": false
 }

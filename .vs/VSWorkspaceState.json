@@ -2,11 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\blog",
+    "\\blog\\static",
+    "\\blog\\static\\blog",
     "\\blog\\templates",
     "\\blog\\templates\\blog",
     "\\blog\\templates\\blog\\includes",
+    "\\static",
     "\\templates"
   ],
-  "SelectedNode": "\\blog\\templates\\blog\\includes\\post.html",
+  "SelectedNode": "\\blog\\static\\blog\\post-detail.css",
   "PreviewInSolutionExplorer": false
 }

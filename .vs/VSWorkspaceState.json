@@ -1,15 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\blog",
-    "\\blog\\static",
-    "\\blog\\static\\blog",
-    "\\blog\\templates",
-    "\\blog\\templates\\blog",
-    "\\blog\\templates\\blog\\includes",
-    "\\static",
-    "\\templates"
+    "\\my_site",
+    "\\uploads\\posts"
   ],
-  "SelectedNode": "\\blog\\static\\blog\\post-detail.css",
+  "SelectedNode": "\\my_site\\urls.py",
   "PreviewInSolutionExplorer": false
 }

@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\my_site",
-    "\\uploads\\posts"
+    "\\blog",
+    "\\blog\\templates",
+    "\\blog\\templates\\blog",
+    "\\my_site"
   ],
-  "SelectedNode": "\\my_site\\urls.py",
+  "SelectedNode": "\\blog\\templates\\blog\\all-posts.html",
   "PreviewInSolutionExplorer": false
 }
